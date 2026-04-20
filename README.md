@@ -11,6 +11,12 @@ This repository implements **Stack 2** of the **Quick-Note Polyglot** project ec
 
 The Quick-Note API provides a minimal but production-grade authentication and note management service, exposing seven REST endpoints that enforce strict contracts between frontend and backend. All state is persisted to RavenDB, a document-oriented NoSQL database that offers sophisticated querying capabilities while introducing important paradigm shifts in application design, particularly around eventual consistency and document sessions.
 
+## The Polyglot Ecosystem
+
+This backend is one component of a larger decoupled system, designed to interoperate with its corresponding frontend repository while preserving clear separation of concerns across the polyglot architecture.
+
+- [Frontend User Interface](https://github.com/DineshMoorthy007/quick-note-react-ui)
+
 ## System Architecture & Design Patterns
 
 ### Architectural Overview
