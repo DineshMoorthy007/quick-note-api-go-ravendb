@@ -1,0 +1,41 @@
+# Binaries and build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/main
+/bin/
+/dist/
+/build/
+
+# Go workspace files
+*.coverprofile
+coverage.out
+coverage.html
+
+# Logs
+*.log
+logs/
+
+# Environment and local config
+.env
+.env.*
+!.env.example
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor
+.idea/
+.vscode/
+*.swp
+*.swo
